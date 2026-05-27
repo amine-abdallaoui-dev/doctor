@@ -105,7 +105,6 @@ function AppRoutes() {
 
 function App() {
   return (
-    <BrowserRouter>
       <AuthProvider>
         <ThemeProvider>
           <ToastProvider>
@@ -113,7 +112,6 @@ function App() {
           </ToastProvider>
         </ThemeProvider>
       </AuthProvider>
-    </BrowserRouter>
   );
 }
 
